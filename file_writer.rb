@@ -1,8 +1,9 @@
 puts "file name"
 file_name = gets.chomp 
 
-images = File.readlines(file_name)
-newFile = File.open("newAcrylic.html", "a")
+images = File.readlines("img_listings/#{file_name}")
+# rename file here! also don't forget to change img- src below
+newFile = File.open("new_html/LittleAcrylic.html", "a")
 title = ""
 
 images.each do |i| 
@@ -16,9 +17,10 @@ images.each do |i|
   newFile.write("</li>\n")
 end
 
-            # <li>
-            #   <figure>
-            #     <img src="img-silkscreen/thumb/embarcadero_thumb.jpg" alt="embarcadero"/>
-            #     <figcaption><h4>Embarcadero (2012)</h4></figcaption>
-            #   </figure>
-            # </li>
+# should generate this:
+# <li>
+#   <figure>
+#     <img src="img-silkscreen/thumb/embarcadero_thumb.jpg" alt="embarcadero"/>
+#     <figcaption><h4>Embarcadero (2012)</h4></figcaption>
+#   </figure>
+# </li>
