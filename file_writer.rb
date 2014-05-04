@@ -3,7 +3,7 @@ file_name = gets.chomp
 
 images = File.readlines("img_listings/#{file_name}")
 # rename file here! also don't forget to change img- src below
-newFile = File.open("new_html/LittleAcrylic.html", "a")
+newFile = File.open("new_html/LittleSilk.html", "a")
 title = ""
 
 images.each do |i| 
@@ -11,8 +11,8 @@ images.each do |i|
   puts title
   newFile.write("<li>\n")
   newFile.write("\t<figure>\n")
-  newFile.write("\t\t<img src='img-acrylic/thumb/" + i.chomp + "' alt='"+ i.chomp + "'/>\n")
-  newFile.write("\t\t\t<figcaption><h4>" + title.capitalize + " (2012)</h4></figcaption>\n")
+  newFile.write("\t\t<img src='img-silkscreen/thumb/" + i.chomp + "' alt='"+ i.chomp + "'/>\n")
+  newFile.write("\t\t\t<figcaption><h4>" + title.capitalize + "</h4></figcaption>\n")
   newFile.write("\t</figure>\n")
   newFile.write("</li>\n")
 end
