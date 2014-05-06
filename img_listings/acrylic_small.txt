@@ -10,3 +10,15 @@ seashore_thumb.jpg
 storm_thumb.jpg
 thewave_thumb.jpg
 volcano_thumb.jpg
+.
+..
+fullmoon_thumb.jpg
+geisha_thumb.jpg
+landscape_thumb.jpg
+rainyday_thumb.jpg
+redwave_thumb.jpg
+reflection_thumb.jpg
+seashore_thumb.jpg
+storm_thumb.jpg
+thewave_thumb.jpg
+volcano_thumb.jpg

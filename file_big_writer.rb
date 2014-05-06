@@ -16,7 +16,7 @@ images.each do |i|
   newFile.write("\t\t\t<p>Acrylic on French Rag, 16\"x20\", edition of 21, $175</p>\n")
   newFile.write("\t\t<figcaption>\n")
   newFile.write("\t\t<img src='img-acrylic/large/" + i.chomp + "' alt='"+ i.chomp + "'/>\n")
-  newFile.write("\t</figure>\n")
+  newFile.write("\t</figure></a>\n")
   newFile.write("</li>\n")
 end
 

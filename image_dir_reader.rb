@@ -3,16 +3,33 @@ a_big_path = "../new_website/img-acrylic/large"
 a_little_path = "../new_website/img-acrylic/thumb"
 s_big_path = "../new_website/img-silkscreen/large"
 s_little_path = "../new_website/img-silkscreen/thumb"
-o_big_path = "../new_website/img-oil/large"
-o_little_path = "../new_website/img-oil/thumb"
+o_big_path = "../new_website/img-landscape/large"
+o_little_path = "../new_website/img-landscape/thumb"
 l_big_path = "../new_website/img-linen/large"
 l_little_path = "../new_website/img-linen/thumb"
 ab_little_path = "../new_website/img-abstract/thumb"
 ab_big_path = "../new_website/img-abstract/large"
 f_little_path = "../new_website/img-floral/thumb"
 f_big_path = "../new_website/img-floral/large"
+land_little_path = "../new_website/img-landscape/thumb"
+land_big_path = "../new_website/img-landscape/large"
+c_little_path = "../new_website/img-cityscape/thumb"
+c_big_path = "../new_website/img-cityscape/large"
+
 
 #write to each file to list the images
+land_little_f = File.open("land_small.txt", "a")
+Dir.foreach(land_little_path) {|x| land_little_f.write("#{x}\n") }
+
+land_big_f = File.open("land_big.txt", "a")
+Dir.foreach(land_big_path) {|x| land_big_f.write("#{x}\n") }
+
+c_little_f = File.open("cityscape_small.txt", "a")
+Dir.foreach(c_little_path) {|x| c_little_f.write("#{x}\n") }
+
+c_big_f = File.open("cityscape_big.txt", "a")
+Dir.foreach(c_big_path) {|x| c_big_f.write("#{x}\n") }
+
 a_little_f = File.open("acrylic_small.txt", "a")
 Dir.foreach(a_little_path) {|x| a_little_f.write("#{x}\n") }
 

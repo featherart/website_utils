@@ -15,7 +15,6 @@ fairytale_web.jpg
 ophelia_web.jpg
 quartet_web.jpg
 red_tuolumne_web.jpg
-redaspens_web.jpg
 redleaves_web.jpg
 redrocks_web.jpg
 redsky_web.jpg

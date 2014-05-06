@@ -14,7 +14,6 @@ fairytale_thumb.jpg
 ophelia_thumb.jpg
 quartet_thumb.jpg
 red_tuolumne_thumb.jpg
-redaspens_thumb.jpg
 redleaves_thumb.jpg
 redrocks_thumb.jpg
 redsky_thumb.jpg
